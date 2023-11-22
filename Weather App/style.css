@@ -1,0 +1,106 @@
+body {
+  background: #141E30; 
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+  background: linear-gradient(to right, #243B55, #141E30); 
+  font-family: sans-serif;
+}
+
+.card {
+  width: 90%;
+  max-width: 450px;
+  background: #485563; 
+  background: -webkit-linear-gradient(to right, #29323c, #485563); 
+  background: linear-gradient(to right, #29323c, #485563); 
+  color: #fff;
+  margin: 20px auto 0;
+  border-radius: 20px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search .input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 40px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.search .bt-search {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.search .bt-search img {
+  width: 16px;
+}
+
+.icon {
+  width: 170px;
+  margin-top: 30px;
+}
+
+.wheather {
+  display: none;
+}
+
+.wheather h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.wheather h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: -50px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.details p {
+  margin: 0;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 45px;
+  margin-right: 8px;
+}
+
+.humidity,
+.wind {
+  font-size: 28px;
+}
+
+.error {
+  color: #dc143c;
+  display: none;
+}
